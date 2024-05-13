@@ -1,0 +1,4 @@
+# Ignorar archivos de configuración
+.env
+config.js
+config.json
