@@ -1,0 +1,21 @@
+---
+// Aquí puedes importar cualquier dependencia necesaria
+import { useState } from 'preact/hooks';
+import axios from 'axios';
+---
+
+<form submit="handleSend">
+  <input type="text" name="phoneNumber" placeholder="Número de teléfono" />
+  <textarea name="message" placeholder="Escribe tu mensaje aquí..."></textarea>
+  <button type="submit">Enviar Mensaje</button>
+</form>
+
+<script>
+const [phoneNumber, setPhoneNumber] = useState('');
+const [message, setMessage] = useState('');
+
+function handleSend(event) {
+  event.preventDefault();
+  // Implementar lógica para enviar mensaje
+}
+</script>

@@ -1,0 +1,17 @@
+{
+  "name": "whatsapp-api-integration",
+  "version": "1.0.0",
+  "description": "Simple WhatsApp API Integration",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}
